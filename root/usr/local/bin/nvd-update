@@ -1,0 +1,4 @@
+#!/bin/sh
+
+java -jar /usr/local/bin/nist-data-mirror.jar /usr/local/apache2/htdocs/
+rm -rf /usr/local/apache2/htdocs/*.gz
